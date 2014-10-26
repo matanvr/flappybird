@@ -15,6 +15,7 @@
 		FEF419E619FC8EAE009D0122 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF419E519FC8EAE009D0122 /* Images.xcassets */; };
 		FEF419E919FC8EAE009D0122 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF419E719FC8EAE009D0122 /* LaunchScreen.xib */; };
 		FEF419F519FC8EAE009D0122 /* flappyThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF419F419FC8EAE009D0122 /* flappyThreeTests.swift */; };
+		FEF419FF19FC8EE7009D0122 /* img in Resources */ = {isa = PBXBuildFile; fileRef = FEF419FE19FC8EE7009D0122 /* img */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FEF419EE19FC8EAE009D0122 /* flappyThreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flappyThreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF419F319FC8EAE009D0122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF419F419FC8EAE009D0122 /* flappyThreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flappyThreeTests.swift; sourceTree = "<group>"; };
+		FEF419FE19FC8EE7009D0122 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		FEF419D719FC8EAE009D0122 /* flappyThree */ = {
 			isa = PBXGroup;
 			children = (
+				FEF419FE19FC8EE7009D0122 /* img */,
 				FEF419DA19FC8EAE009D0122 /* AppDelegate.swift */,
 				FEF419DC19FC8EAE009D0122 /* GameScene.sks */,
 				FEF419DE19FC8EAE009D0122 /* GameScene.swift */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF419FF19FC8EE7009D0122 /* img in Resources */,
 				FEF419E919FC8EAE009D0122 /* LaunchScreen.xib in Resources */,
 				FEF419E619FC8EAE009D0122 /* Images.xcassets in Resources */,
 				FEF419DD19FC8EAE009D0122 /* GameScene.sks in Resources */,
